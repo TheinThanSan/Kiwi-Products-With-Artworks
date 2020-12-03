@@ -1,0 +1,708 @@
+.font-md{
+	font-family: 'Modak', cursive;
+}
+.font-pop{
+	font-family: 'Poppins', sans-serif;
+}
+.font-ms{
+	font-family: 'Montserrat', sans-serif;
+}
+.font-size-60{
+	font-size: 60px;
+}
+.font-size-50{
+	font-size: 50px;
+}
+.font-size-40{
+	font-size: 40px;
+}
+.font-size-30{
+	font-size: 30px;
+}
+.font-size-27{
+	font-size: 27px;
+}
+.font-size-25{
+	font-size: 25px;
+}
+.font-size-21{
+	font-size: 21px;
+}
+.font-size-23{
+	font-size: 23px;
+}
+.font-size-19{
+	font-size: 19px;
+}
+.font-size-18{
+	font-size: 18px;
+}
+.font-size-16{
+	font-size: 16px;
+}
+.font-size-15{
+	font-size: 15px;
+}
+.font-size-14{
+	font-size: 14px;
+}
+.font-size-13{
+	font-size: 13px;
+}
+.bg-black{
+	background: #000;
+}
+.bg-grey{
+	background: #4D4D4D;
+}
+.bg-grey2{
+	background: #2D2D2D;
+}
+.bg-vio{
+	background: #750FC4;
+}
+.bg-orange{
+	background: #e17556;
+}
+.text-orange{
+	color: #ffaf4d;
+}
+.text-grey{
+	color: #D0CFCF;
+}
+.text-vio{
+	color: #AE17E0;
+}
+.text-yellow{
+	color: #FFDC1C;
+}
+.text-red{
+	color: #D70000;
+}
+.btn-black{
+	background: #000;
+}
+.btn-red{
+	color: #D70000;
+}
+.btn-grey2{
+	background: #2D2D2D;
+}
+.bg-blue{
+	background: #00BBFF;
+}
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #2E2E2E !important;
+}
+.bg-red{
+	background: #ff596f;
+}
+#bags .btn{
+	border-radius: 40px;
+
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	background: #2E2E2E;
+}
+
+/*nav section*/
+nav{
+	border-bottom: solid 1px #2E2E2E;
+}
+.right-search .fa {
+    position: absolute;
+    right: 16px;
+    padding: 9px 12px;
+    color: #fff;
+}
+.right-search .fa:hover {
+    cursor: pointer;
+	transition: transform 1.5s ease;
+}
+#top-nav .form-control{
+	font-size: 20px;
+}
+#top-nav .fa{
+	font-size: 20px;
+}
+.card-list .fa:hover {
+    cursor: pointer;
+    color: #FF5B13;
+}
+
+
+/*menu section*/
+#menu ul{
+	border-bottom: 1px solid #545353;
+}
+
+
+/*header section*/
+#top-nav .toggler:hover{
+	cursor: pointer;
+}
+.sidebar{
+	background: #000;
+	margin: 0;
+	padding-left: 0;
+}
+#top-nav .title a:hover{
+	text-decoration: underline #5C5B5B;
+}
+#menu a{
+	text-decoration: none;
+}
+
+/*banner section*/
+#banner .banner-area{
+	background: url(../images/art-banner.png);
+	background-size: cover;
+	position: relative;
+	background-position: center;
+	width: 75%;
+	height: 80vh;
+}
+
+
+/*shop products section*/
+#shop-products .col-md-4{
+	overflow: hidden;
+}
+#shop-products img:hover{
+	transform: scale(1.05);
+	transition: transform 1.5s ease;
+	z-index: 0;
+	position: relative;
+	overflow: hidden;
+}
+#shop-products button{
+	border-radius: 20px;
+	border: none;
+	box-shadow: inset 1px 1px 1px #0D0D0D;	
+}
+#shop-products button:hover{
+	background: #444444;
+	transition: transform 1.5s ease;
+}
+#shop-products .shop1 button{
+	position: absolute;
+	top: 20%;
+	left: 5%;
+}
+#shop-products .shop2 button{
+	position: absolute;
+	top: 20%;
+	left: 5%;
+}
+#shop-products .shop3 button{
+	position: absolute;
+	top: 20%;
+	left: 5%;
+}
+#shop-products .shop4 button{
+	position: absolute;
+	top: 20%;
+	left: -2%;
+}
+#shop-products .shop5 button{
+	position: absolute;
+	top: 20%;
+	left: -1%;
+}
+#shop-products .shop6 button{
+	position: absolute;
+	top: 20%;
+	left: 5%;
+}
+
+.overlay1, .overlay2, .overlay3, .overlay4, .overlay5, .overlay6{
+	min-width: 50%;
+	min-height: 20%;
+	position: absolute; 
+	top: 80%;
+	left: 30%;
+}
+
+
+/*banner section 2*/
+#banner2 .banner-area2{
+	background: url(../images/artist2.png);
+	background-size: cover;
+	width: 80%;
+	height: 45vh;
+	position: relative;
+	background-position: center;
+}
+.overlay{
+	min-width: 100%;
+	min-height: 100%;
+	background-color: #000;
+	opacity: 0.1;     /*background-color: rgba(0,0,0,.3);*/
+	position: absolute; 
+	top: 0;
+	left: 0;
+}
+#banner2 button{
+	position: absolute;
+	top: 85%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border: none;
+	background-color: #DD0000;
+	box-shadow:  2px 2px 2px #000;
+	display: inline-block;
+	width: 400px;
+	border-radius: 50px;
+	color: #fff;
+}
+#banner2 button:hover{
+	background-color: #DF361F;
+	color: #fff;
+	transition: transform ease .8s;
+}
+
+
+/*footer section*/
+.fa, .fab, .fad, .fal, .far, .fas {
+	height: 1.5;
+	line-height: 1.5;
+}
+#footer p:hover{
+	cursor: pointer;
+}
+
+
+/*product section*/
+#product option{
+	border: none;
+}
+#product button{
+	border-radius: 20px;
+	border: none;
+}
+
+
+/*sell art section*/
+
+
+/*start sell 1 section*/
+
+#start-sell1 button{
+	border-radius: 25px;
+	border: none;
+	color: #fff;
+	background-color: #8000BC;
+	box-shadow:  2px 2px 2px #593C64;
+}
+#start-sell1 button:hover{
+	background-color: #9427F1;
+	transform: translateY(-3px);
+	transition: transform ease .8s;
+}
+#start-sell .text{
+	text-shadow: 2px 2px 2px #593C64;
+}
+
+/*sell-70 section*/
+#sell-70 .text{
+	position: relative;
+	margin-top:10%;
+	left: 5%;
+}
+#sell-70 button{
+	border-radius: 25px;
+	border: none;
+	color: #fff;
+	background-color: #8000BC;
+	box-shadow:  2px 2px 2px #593C64;
+}
+#sell-70 button:hover{
+	background-color: #9427F1;
+	transform: translateY(-3px);
+	transition: transform ease .8s;
+}
+
+/*signup section*/
+#signup input,#login input,#recover input,#student input{
+	border-bottom: 1px solid #4D4D4D !important;
+}
+#signup input,#login input,#recover input:focus,#student input:focus{
+	background-color: #000; 
+}
+#signup button,#login button,#recover button,#gifts button{
+	border: none;
+	border-radius: 50px;
+	background: #BE0000;
+	color: #F8F1F1 !important;
+}
+#signup button:hover,#login button:hover,#recover button:hover,#gifts button:hover,#student-discount button:hover{
+	background: #E72D1F !important;
+	color: #fff !important;
+}
+
+/*recover section*/
+#recover input{
+	border: 1px solid #4D4D4D !important;
+}
+#recover input:focus{
+	background-color: #000; 
+}
+
+/*masks section*/
+.modal{
+	height: 65%;
+	top: 15%;
+	left: 2%;
+}
+#masks .card,.card-body p{
+	overflow: hidden;
+}
+#masks .card img:hover{
+	transform: scale(1.06);
+	transition: transform 1.4s ease;
+	position: relative;
+	overflow: hidden;
+}
+
+/*ph-case section*/
+#phone-case .card,.card-body p{
+	overflow: hidden;
+}
+#phone-case .card img:hover{
+	transform: scale(1.06);
+	transition: transform 1.4s ease;
+	position: relative;
+	overflow: hidden;
+}
+
+/*t-shirt section*/
+#t-shirt .card,.card-body p{
+	overflow: hidden;
+}
+#t-shirt .card img:hover{
+	transform: scale(1.06);
+	transition: transform 1.4s ease;
+	position: relative;
+	overflow: hidden;
+}
+
+#t-shirt2 .d-flex a:hover{
+	color: #FF7C1B;
+}
+#product .size a:hover{
+	color: #FF7C1B;
+}
+#mask2 .d-flex a:hover{
+	color: #FF7C1B;
+}
+
+/*sticker section*/
+#sticker button{
+	border-radius: 20px;
+}
+#sticker .card,.card-body p{
+	overflow: hidden;
+}
+#sticker .card img:hover{
+	transform: scale(1.06);
+	transition: transform 1.4s ease;
+	position: relative;
+	overflow: hidden;
+}
+
+
+/*gifts sectiion*/
+#gifts .card,.card-body p{
+	overflow: hidden;
+}
+#gifts .card img:hover{
+	transform: scale(1.06);
+	transition: transform 1.4s ease;
+	position: relative;
+	overflow: hidden;
+}
+
+/*stationary section*/
+#stationary .card,.card-body p{
+	overflow: hidden;
+}
+#stationary .card img:hover{
+	transform: scale(1.06);
+	transition: transform 1.4s ease;
+	position: relative;
+	overflow: hidden;
+}
+
+/*about us section*/
+#about{
+	background: url(../images/aboutus.jpg)!important;
+	background-size: cover;
+	position: relative;
+	background-position: center;
+	width: 100%;
+	height: 80vh;
+	z-index: 5 !important;
+}
+.overlay-abt{
+	min-width: 100%;
+	min-height: 100%;
+	background-color: #000;
+	opacity: 0.7 !important;    
+	position: absolute; 
+	top: 0;
+	left: 0;
+	z-index: 6 !important;
+}
+.about-mission1{
+	position: absolute;
+	top: 3%;
+	left: 45%;
+	z-index: 7;
+}
+.about-mission2{
+	position: absolute;
+	top: 30%;
+	z-index: 7;
+}
+.about1{
+	background: url(../images/about1.jpg);
+	background-size: cover;
+	position: relative;
+	background-position: center;
+	width: 100%;
+	height: 45vh;
+}
+.about2{
+	background: url(../images/about2.jpg);
+	background-size: cover;
+	position: relative;
+	background-position: center;
+	width: 50%;
+	height: 45vh;
+}
+.aboutus2{
+	background: url(../images/aboutus2.jpg);
+	background-size: cover;
+	position: relative;
+	background-position: center;
+	width: 100%;
+	height: 60vh;
+}
+.sell-thing button:hover{
+	border: none;
+	background: #BE0000;
+	color: #F8F1F1 !important;
+}
+
+/*contact us section*/
+#contact .card:hover{
+	cursor: pointer;
+}
+#contact .card-header {
+    border-radius: 0 0 0 0;
+}
+#contact .card-header:focus {
+    border-radius: 0 0 0 0;
+}
+
+
+/*social section*/
+#social{
+	background: url(../images/social.jpg);
+	background-size: cover;
+	position: relative;
+	background-position: center;
+	width: 100%;
+	height: 60vh;
+	z-index: 1 !important;
+}
+#social .social-p p{
+	z-index: 5 !important;
+	position: relative;
+}
+#social .overlay-social{
+	min-width: 100%;
+	min-height: 100%;
+	background-color: #000;
+	opacity: 0.6 !important;  
+	position: absolute; 
+	top: 0;
+	left: 0;
+	z-index: 2 !important;
+}
+
+/*stationary section*/
+.btn-purple{
+
+	background-color: #6f42c1;
+
+}
+
+.card-body{
+	height: 15rem;
+}
+
+/*scroll to top section*/
+.scroll-top {
+  width: 75px;
+  height: 75px;
+  position: fixed;
+  bottom: 25px;
+  left: 20px;
+  display: none;
+}
+.scroll-top i {
+  display: inline-block;
+  color: #fff;
+}
+
+
+button{
+	outline: none !important;
+}
+#top-nav a{
+	text-decoration: none !important;
+}
+#top-nav p:hover{
+	color: #000 !important;
+	font-size: 17px !important;
+}
+nav .fa-heart,
+nav .fa-shopping-cart{
+	font-size: 22px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px){
+	#banner .banner-area{
+		width: 100%;
+		height: 38vh;
+		background-position: center;
+	}
+	#banner2 .banner-area2{
+		display: none;
+	}
+	#about{
+		width: 100% !important;
+		height: 35vh !important;
+	}
+	#social{
+		width: 100% !important;
+		height: 30vh !important;
+	}
+	#social-p2 img{
+		width: 100% !important;
+		height: 45vh !important;
+	}
+	.card-list .fa {
+    	margin-top: 40px;
+    	margin-left: 10px;
+    	padding-bottom: 15px;
+	}
+
+	#menu{
+		display: none;
+	}
+	.toggler{
+		position: fixed-right;
+	}
+	.about-mission1{
+		transform: none;
+		position: absolute;
+		top: -20%;
+		left: 37%;
+		padding: 0 15px;
+		
+	}
+	.about-mission2{
+		transform: none;
+		position: absolute;
+		top: 27%;
+		left: 0;
+		padding: 0 15px;
+		
+	}
+	.about-mission1 h1{
+		font-size: 13px;
+	}
+	.about-mission2 p{
+		font-size: 25px;
+	}
+	.social-p{
+		transform: none;
+		position: absolute;
+		top: -15%;
+		left: 0%;
+		padding: 0 15px;
+		
+	}
+	.social-p p{
+		font-size: 27px;
+	}
+	#social-p2 h1{
+		font-size: 27px !important;
+	}
+	#social-p2 p{
+		font-size: 15px !important;
+	}
+	#banner2 .banner-area2{
+		width: 100%;
+		height: 28vh;
+	}
+	#banner2 button{
+		position: relative;
+		margin-top: 190%;
+		margin-left: -400%;
+		width: 100px;
+		font-size: 16px;
+	}
+	.sidebar{
+		display: none;
+	}
+	.toggler .fa-times{
+		display: none;
+	}
+	.toggler .fa-bars{
+		display: block;
+	}
+	#contact .card-body{
+		height: 18rem !important;
+	}
+}
+
+@media screen and (min-width: 890px){
+	#side-navbar{
+		display: none;
+	}
+	.toggler .fa-times{
+		display: none;
+	}
+	.toggler .fa-bars{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 890px){
+	.toggler .fa-times{
+		display: none;
+	}
+	.sidebar{
+		display: none;
+	}
+}
+
