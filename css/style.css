@@ -440,7 +440,7 @@ nav{
 
 /*about us section*/
 #about{
-	background: url(../images/aboutus.jpg)!important;
+	background: url(../images/aboutus.jpg);
 	background-size: cover;
 	position: relative;
 	background-position: center;
