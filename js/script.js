@@ -26,5 +26,13 @@ $(document).ready(function () {
 			$bars.hide();
 		}
 	})
+	
+	var nav = document.getElementById('navbar');
+	if($win.width() > 768){
+        nav.classList.add("sticky-top");	
+	}
+	else{
+    	nav.classList.remove("sticky-top");
+	}
 });
 
